@@ -226,15 +226,22 @@ a {
     align-items: center;
 }
 .main-about__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: caveat-illustrator, sans-serif;
     font-weight: 400;
     margin: 0 0 25px;
     font-size: 150px;
     line-height: 189px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
-.main-about__text {
+.main-about__text {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 700px;
     height: 260px;
     text-align: center;
